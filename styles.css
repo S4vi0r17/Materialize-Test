@@ -1,0 +1,46 @@
+body {
+  background-color: #5c535a;
+}
+.container {
+  height: 100vh;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+h1 {
+  color: #e4d4c6;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 4rem;
+}
+i {
+  color: #e4d4c6;
+}
+.btn {
+  background-color: #822f3c;
+  color: #e4d4c6;
+}
+.btn:hover {
+  background-color: #9d5b64;
+  color: #ffffff;
+}
+.input-field .prefix.active {
+  color: #ffffff;
+}
+input[type="text"]:not(.browser-default):focus:not([readonly]) + label,
+input[type="tel"]:not(.browser-default):focus:not([readonly]) + label,
+input[type="email"]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #ffffff;
+}
+input[type="text"]:not(.browser-default):focus:not([readonly]),
+input[type="tel"]:not(.browser-default):focus:not([readonly]),
+input[type="email"]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: #ffffff;
+  box-shadow: 0 1px 0 0 #ffffff;
+}
